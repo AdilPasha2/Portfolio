@@ -81,7 +81,7 @@ const Hero = () => {
                 Hire Me
               </a>
               <a
-                href="public\AdilsResume.pdf" alt="Adil Pasha's Resume"
+                href="/AdilsResume.pdf" alt="Adil Pasha's Resume"
                 download="AdilsResume.pdf"
                 className="inline-block px-8 py-4 bg-transparent text-primary-500 font-semibold 
                          rounded-lg border-2 border-primary-500 transition-all duration-300 
