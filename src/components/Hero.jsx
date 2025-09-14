@@ -95,7 +95,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="www.linkedin.com/in/adilpasharazvi"
+                href="https://linkedin.com/in/adilpasharazvi"
                 className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center 
                          text-dark-700 transition-all duration-300 hover:bg-primary-600 
                          transform hover:-translate-y-1 hover:shadow-lg animate-float"
@@ -103,7 +103,7 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
               </a>
               <a
-                href="http://adilpasha2/"
+                href="http://github.com/adilpasha2/"
                 className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center 
                          text-dark-700 transition-all duration-300 hover:bg-primary-600 
                          transform hover:-translate-y-1 hover:shadow-lg animate-float"
