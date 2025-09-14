@@ -82,8 +82,7 @@ const Hero = () => {
               </a>
               <a
                 href="public\AdilsResume.pdf" alt="Adil Pasha's Resume"
-                target="_blank"
-                rel="noopener noreferrer"
+                download="AdilsResume.pdf"
                 className="inline-block px-8 py-4 bg-transparent text-primary-500 font-semibold 
                          rounded-lg border-2 border-primary-500 transition-all duration-300 
                          hover:bg-primary-500 hover:text-dark-700 hover:shadow-lg transform hover:scale-105"
