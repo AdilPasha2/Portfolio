@@ -81,7 +81,7 @@ const Hero = () => {
                 Hire Me
               </a>
               <a
-                href=".assets\AdilsResume.pdf" alt="Adil Pasha's Resume"
+                href="/AdilsResume.pdf" alt="Adil Pasha's Resume"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-transparent text-primary-500 font-semibold 
