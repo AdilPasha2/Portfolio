@@ -81,7 +81,9 @@ const Hero = () => {
                 Hire Me
               </a>
               <a
-                href="#"
+                href=".assets\AdilsResume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-transparent text-primary-500 font-semibold 
                          rounded-lg border-2 border-primary-500 transition-all duration-300 
                          hover:bg-primary-500 hover:text-dark-700 hover:shadow-lg transform hover:scale-105"
@@ -119,7 +121,7 @@ const Hero = () => {
                            overflow-hidden shadow-2xl transform transition-transform duration-500 
                            hover:scale-105 hover:border-primary-400">
                 <img
-                  src="/images/Me1.jpg"
+                  src="/images/nanmaka.jpg"
                   alt="Adil Pasha"
                   className="w-full h-full object-cover"
                 />
