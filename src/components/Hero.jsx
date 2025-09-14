@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState('')
@@ -81,7 +81,7 @@ const Hero = () => {
                 Hire Me
               </a>
               <a
-                href="/AdilsResume.pdf" alt="Adil Pasha's Resume"
+                href="public\AdilsResume.pdf" alt="Adil Pasha's Resume"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-8 py-4 bg-transparent text-primary-500 font-semibold 
@@ -95,7 +95,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-4 justify-center lg:justify-start">
               <a
-                href="#"
+                href="www.linkedin.com/in/adilpasharazvi"
                 className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center 
                          text-dark-700 transition-all duration-300 hover:bg-primary-600 
                          transform hover:-translate-y-1 hover:shadow-lg animate-float"
@@ -103,13 +103,13 @@ const Hero = () => {
                 <FontAwesomeIcon icon={faLinkedin} className="text-lg" />
               </a>
               <a
-                href="#"
+                href="http://adilpasha2/"
                 className="w-12 h-12 bg-primary-500 rounded-full flex items-center justify-center 
                          text-dark-700 transition-all duration-300 hover:bg-primary-600 
                          transform hover:-translate-y-1 hover:shadow-lg animate-float"
                 style={{ animationDelay: '0.2s' }}
               >
-                <FontAwesomeIcon icon={faTwitter} className="text-lg" />
+                <FontAwesomeIcon icon={faGithub} className="text-lg" />
               </a>
             </div>
           </div>
